@@ -1,0 +1,48 @@
+
+  body {
+    /* The image used */
+    background-image: url('bluebelt.jpg');
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size:100% 100vh;
+
+    /*Background Color */
+    background-color: #000;
+
+  }
+
+  #img_fsakm {
+
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+  }
+
+
+  #title{
+
+    font-family: "Snell Roundhand", Times, serif;
+    font-size: 40px;
+    color:white;
+    padding-top: 65px;
+
+  }
+
+  #menu{
+    padding: 14px 40px;
+    text-align: right;
+
+  }
+
+  /* Change the color of links on hover */
+  .menu a:hover  {
+    color: white;
+  }
+
+  .menu {
+    display: inline;
+    margin-right: 20px;
+
+  }
