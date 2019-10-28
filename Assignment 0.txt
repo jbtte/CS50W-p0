@@ -6,7 +6,8 @@ Getting Started
 Your First Webpage
 Download the distro code for this project from https://cdn.cs50.net/web/2019/x/projects/0/project0.zip and unzip project0.zip, which should yield a directory called project0.
 
-Then, in a terminal window (located in /Applications/Utilities on Mac or by typing cmd in the Windows task bar), move to the directory where you extracted project0 (recall that the cd command can change your current directory), and run
+Then, in a terminal window (located in /Applications/Utilities on Mac or by typing cmd in the Windows task bar),
+move to the directory where you extracted project0 (recall that the cd command can change your current directory), and run
 
 cd project0
 to enter the project directory. Now, run

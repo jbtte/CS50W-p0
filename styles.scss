@@ -1,7 +1,16 @@
+$font: "Courier New", Times, serif;
+
+
+%style{
+
+  margin-top:2%;
+  font-family:  $font;
+
+}
+
 body{
 
   background-color: black;
-
 }
 
 
@@ -98,11 +107,14 @@ body{
 }
 
 .inner{
+
+  @extend %style
+
+
   color:black;
-  margin-top:2%;
   padding-top: 2%;
   padding-left:3%;
-  font-family:  "Courier New", Times, serif;
+  font-family:  $font;
   background-color: white;
 
 }
@@ -116,10 +128,9 @@ body{
   }
 
   .technical_info{
-    margin-top:2%;
-    color:white;
-    font-family:  "Courier New", Times, serif;
+    @extend %style
 
+    color:white;
 
   }
 
@@ -131,3 +142,16 @@ body{
     text-align: center;
 
   }
+
+tbody {
+
+  th {
+
+    text-align: left;
+
+
+  }
+
+
+
+}
