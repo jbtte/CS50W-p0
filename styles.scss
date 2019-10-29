@@ -3,7 +3,7 @@ $font:'Courier New', Times, serif;
 
 %style{
 
-  margin-top:2%;
+  margin-top:3%;
   font-family: $font;
 
 
@@ -128,7 +128,9 @@ body{
   }
 
   .technical_info{
+
     @extend %style;
+    padding-top:5%;
     color:white;
 
   }

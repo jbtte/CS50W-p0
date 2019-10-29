@@ -1,5 +1,5 @@
 .technical_info, .inner {
-  margin-top: 2%;
+  margin-top: 3%;
   font-family: "Courier New", Times, serif;
 }
 
@@ -96,6 +96,7 @@ body {
 }
 
 .technical_info {
+  padding-top: 5%;
   color: white;
 }
 
