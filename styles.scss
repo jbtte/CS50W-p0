@@ -1,16 +1,17 @@
-$font: "Courier New", Times, serif;
-
+$color: black;
+$font:'Courier New', Times, serif;
 
 %style{
 
   margin-top:2%;
-  font-family:  $font;
+  font-family: $font;
+
 
 }
 
 body{
 
-  background-color: black;
+  background-color: $color;
 }
 
 
@@ -78,14 +79,14 @@ body{
 
 #header{
 
-  background-color: black;
+  background-color: $color;
 
 }
 
 /* Container holding the image and the text */
 .container-fluid {
   text-align: left;
-  background-color: black;
+  background-color: $color;
 }
 
 
@@ -108,13 +109,12 @@ body{
 
 .inner{
 
-  @extend %style
+  @extend %style;
 
-
-  color:black;
+  color:$color;
   padding-top: 2%;
   padding-left:3%;
-  font-family:  $font;
+
   background-color: white;
 
 }
@@ -128,8 +128,7 @@ body{
   }
 
   .technical_info{
-    @extend %style
-
+    @extend %style;
     color:white;
 
   }
