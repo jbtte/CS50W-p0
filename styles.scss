@@ -9,6 +9,12 @@ $font:'Courier New', Times, serif;
 
 }
 
+%images{
+
+  width:100%;
+
+}
+
 body{
 
   background-color: $color;
@@ -123,14 +129,14 @@ body{
 
   #img-punch{
 
-    width:100%;
+    @extend %images;
+    margin-bottom:5%;
 
   }
 
   .technical_info{
 
     @extend %style;
-    padding-top:5%;
     color:white;
 
   }
@@ -141,6 +147,12 @@ body{
   table{
     margin-top:2%;
     text-align: center;
+
+  }
+
+  #img-abs{
+
+    @extend %images;
 
   }
 

@@ -3,6 +3,10 @@
   font-family: "Courier New", Times, serif;
 }
 
+#img-abs, #img-punch {
+  width: 100%;
+}
+
 body {
   background-color: black;
 }
@@ -92,11 +96,10 @@ body {
 /**********************************************************/
 /* techinal.html */
 #img-punch {
-  width: 100%;
+  margin-bottom: 5%;
 }
 
 .technical_info {
-  padding-top: 5%;
   color: white;
 }
 
